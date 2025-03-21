@@ -1,0 +1,17 @@
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+*.xls
+*.xlsx
+
+out/
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
