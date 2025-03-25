@@ -1,8 +1,5 @@
 package week2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 学生类测试程序
  */
