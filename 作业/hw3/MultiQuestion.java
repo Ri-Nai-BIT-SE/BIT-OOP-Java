@@ -1,4 +1,4 @@
-package week3;
+package hw3;
 
 public class MultiQuestion extends Question {
     private final char[] answer;

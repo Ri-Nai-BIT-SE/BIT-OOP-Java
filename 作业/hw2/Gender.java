@@ -1,4 +1,4 @@
-package week2;
+package hw2;
 
 /**
  * 性别枚举类

@@ -1,4 +1,4 @@
-package week2;
+package hw2;
 
 /**
  * 学生类测试程序

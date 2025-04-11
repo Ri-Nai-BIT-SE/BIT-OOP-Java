@@ -1,4 +1,4 @@
-package week3;
+package hw3;
 
 public class Question {
     protected String text;

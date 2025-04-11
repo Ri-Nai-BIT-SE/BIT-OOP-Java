@@ -1,4 +1,4 @@
-package week2;
+package hw2;
 
 /**
  * 学生类，用于表示和管理学生信息
