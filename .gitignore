@@ -21,3 +21,5 @@ cache/
 dist/
 config.json
 __pycache__/
+
+tmp/
