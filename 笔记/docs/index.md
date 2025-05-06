@@ -8,11 +8,27 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: ./第一章-软件需求工程概述/
+      link: ./1-Java语言基础
     - theme: alt
       text: 查看源码
       link: https://github.com/Ri-Nai/BIT-OOP-Java
-
 features:
-  
+  - title: 第一章-Java语言基础
+    details: 
+    link: /1-Java语言基础
+  - title: 第二章-数组
+    details: 
+    link: /2-数组
+  - title: 第三章-类和对象
+    details: 
+    link: /3-类和对象
+  - title: 第四章-继承
+    details: 
+    link: /4-继承
+  - title: 第五章-多态
+    details: 
+    link: /5-多态
+  - title: 第六章-集合
+    details: 
+    link: /6-集合
 ---

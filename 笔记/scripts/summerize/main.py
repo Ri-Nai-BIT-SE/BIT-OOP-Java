@@ -2,7 +2,7 @@ import requests
 import json
 from prompt import system_prompt
 import os
-
+import re
 
 
 if __name__ == "__main__":
@@ -57,7 +57,7 @@ if __name__ == "__main__":
                     except:
                         pass
 
-        return result.replace("```markdown", "").replace("```", "")
+        return re.sub(r"```markdown(.*)```", r"\1", result, flags=re.DOTALL)
 
     # ../docs 里的所有 md 文件(包括子目录)
     for root, dirs, files in os.walk(docs_dir):
