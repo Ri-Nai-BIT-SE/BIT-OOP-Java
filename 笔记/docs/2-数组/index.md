@@ -109,7 +109,7 @@ for (int x : array) {
 
 | 方法 | 描述 | 示例 |   
 | --- | --- | --- |
-| `forEach` | 遍历数组 | `Arrays.stream(array).forEach(System.out::println);` |
+| `forEach` | 遍历数组 | `Arrays.stream(array).forEach(System.out::println);` <=> `Arrays.asList(array).forEach(System.out::println);` |
 | `map` | 映射数组 | `Arrays.stream(array).map(i -> i * 2).toArray();` |
 | `filter` | 过滤数组 | `Arrays.stream(array).filter(i -> i % 2 == 0).toArray();` |
 | `reduce` | 归约数组 | `Arrays.stream(array).reduce((a, b) -> a + b).get();` | 
