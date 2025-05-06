@@ -67,6 +67,12 @@ export default defineConfig({
         base: '/6-集合/',
         link: '/index.md',
         collapsed: true,
+        items: [
+          { text: '集合框架', link: '/1-集合框架' },
+          { text: '迭代器', link: '/2-迭代器' },
+          { text: '泛型', link: '/3-泛型' },
+          { text: '几种集合框架', link: '/4-几种集合框架' },
+        ],
       },
     ],
     socialLinks: [
