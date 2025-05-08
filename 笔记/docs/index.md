@@ -31,4 +31,14 @@ features:
   - title: 第六章-集合
     details: 
     link: /6-集合
+  - title: 第七章-异常处理
+    details: 
+    link: /7-异常处理
+  - title: 第八章-多线程
+    details: 
+    link: /8-多线程
+
+  - title: 往年题
+    details: 
+    link: /往年题
 ---

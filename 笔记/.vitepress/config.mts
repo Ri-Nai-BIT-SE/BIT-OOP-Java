@@ -60,6 +60,8 @@ export default defineConfig({
         link: '/index.md',
         collapsed: true,
         items: [
+          { text: '抽象类', link: '/抽象类' },
+          { text: '接口', link: '/接口' },
         ],
       },
       {
@@ -72,6 +74,35 @@ export default defineConfig({
           { text: '迭代器', link: '/2-迭代器' },
           { text: '泛型', link: '/3-泛型' },
           { text: '几种集合框架', link: '/4-几种集合框架' },
+        ],
+      },
+      {
+        text: '异常处理',
+        base: '/7-异常处理/',
+        link: '/index.md',
+        collapsed: true,
+        items: [
+        ],
+      },
+      {
+        text: '多线程',
+        base: '/8-多线程/',
+        link: '/index.md',
+        collapsed: true,
+        items: [
+        ],
+      },
+      {
+        text: '往年题',
+        base: '/往年题/',
+        link: '/index.md',
+        collapsed: true,
+        items: [
+          { text: '2018', link: '/2018.md' },
+          { text: '2020', link: '/2020.md' },
+          { text: '模拟题一', link: '/模拟题一.md' },
+          { text: '模拟题二', link: '/模拟题二.md' },
+          { text: '模拟题三', link: '/模拟题三.md' },
         ],
       },
     ],
