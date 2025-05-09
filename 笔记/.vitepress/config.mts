@@ -93,6 +93,14 @@ export default defineConfig({
         ],
       },
       {
+        text: 'IO与文件操作',
+        base: '/9-IO与文件操作/',
+        link: '/index.md',
+        collapsed: true,
+        items: [
+        ],
+      },
+      {
         text: '往年题',
         base: '/往年题/',
         link: '/index.md',
@@ -100,6 +108,7 @@ export default defineConfig({
         items: [
           { text: '2018', link: '/2018.md' },
           { text: '2020', link: '/2020.md' },
+          { text: '练习题', link: '/练习题.md' },
           { text: '模拟题一', link: '/模拟题一.md' },
           { text: '模拟题二', link: '/模拟题二.md' },
           { text: '模拟题三', link: '/模拟题三.md' },
